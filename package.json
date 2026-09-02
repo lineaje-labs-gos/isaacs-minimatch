@@ -21,7 +21,7 @@
     "node": "*"
   },
   "dependencies": {
-    "brace-expansion": "^1.1.7"
+    "brace-expansion": ">=1.1.18"
   },
   "devDependencies": {
     "tap": "^15.1.6"
@@ -35,5 +35,11 @@
   ],
   "files": [
     "minimatch.js"
-  ]
+  ],
+  "overrides": {
+    "brace-expansion": ">=1.1.18"
+  },
+  "resolutions": {
+    "brace-expansion": ">=1.1.18"
+  }
 }
