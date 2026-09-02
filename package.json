@@ -2,13 +2,13 @@
   "author": "Isaac Z. Schlueter <i@izs.me> (http://blog.izs.me)",
   "name": "minimatch",
   "description": "a glob matcher in javascript",
-  "version": "3.1.5",
+  "version": "3.1.5-lineaje-01",
   "publishConfig": {
     "tag": "legacy-v3"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/isaacs/minimatch.git"
+    "url": "https://github.com/lineaje-labs-gos/isaacs-minimatch"
   },
   "main": "minimatch.js",
   "scripts": {
@@ -27,6 +27,12 @@
     "tap": "^15.1.6"
   },
   "license": "ISC",
+  "contributors": [
+    {
+      "name": "Lineaje DepFixer",
+      "email": "221268890+Lineaje-DepFixer@users.noreply.github.com"
+    }
+  ],
   "files": [
     "minimatch.js"
   ]
